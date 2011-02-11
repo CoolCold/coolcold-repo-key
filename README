@@ -1,0 +1,6 @@
+This is package with coolcold's repo ( http://repo.coolcold.org ) public key
+It should be installed to allow apt feel itself comfort when adding packages
+from that repo. Invoking next commands
+apt-get install coolcold-repo-key && apt-get update
+should be enough to use packages from my repo
+
