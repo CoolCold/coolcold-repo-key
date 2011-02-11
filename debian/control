@@ -1,0 +1,13 @@
+Source: coolcold-repo-key
+Section: unknown
+Priority: extra
+Maintainer: Roman Ovchinnikov <coolthecold@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://repo.coolcold.org
+
+Package: coolcold-repo-key
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: this is key for coolcold's repository
+ this package contains key for coolcold repository
