@@ -20,7 +20,8 @@ set -e
 case "$1" in
     remove|upgrade|deconfigure)
         if [ -x /usr/bin/apt-key ]; then
-                /usr/bin/apt-key del 038088B3
+                /usr/bin/apt-key del '5062 0508 F188 B22A 6A66  BFD1 8680 D0BF 2993 1389' || true #for stretch
+                /usr/bin/apt-key del '29931389' || true #for jessie and older
         fi
     ;;
     failed-upgrade)

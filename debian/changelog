@@ -1,3 +1,9 @@
+coolcold-repo-key (2017.11.05) unstable; urgency=medium
+
+  * updating the key - 4096 bits RSA now, expires in 10 years
+
+ -- Roman Ovchinnikov <coolthecold@gmail.com>  Sun, 05 Nov 2017 03:19:54 +0700
+
 coolcold-repo-key (2011.02.11) unstable; urgency=low
 
   * Initial Release.

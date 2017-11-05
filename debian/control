@@ -8,6 +8,6 @@ Homepage: http://repo.coolcold.org
 
 Package: coolcold-repo-key
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends} gnupg | gnupg2
 Description: this is key for coolcold's repository
  this package contains key for coolcold repository
